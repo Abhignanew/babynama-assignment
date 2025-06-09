@@ -29,7 +29,7 @@ After you've finished coding, please complete the following two steps.
 
 1.  **Deploy Your Work:** Deploy your project to Vercel (it's free).
 2.  **Complete this README:** **This is the most important step.** Edit this `README.md` file in your repository to include:
-    * **Live URL:** [Add your Vercel deployment link here]
+    * **Live URL:** https://babynama-assignment-bay.vercel.app/
     * **Choices Made:** [Briefly explain one technical choice you made]
     * **Roadblock & Learning:** [Describe one small thing you had to look up and how you solved it]
     * **Screenshot:**
