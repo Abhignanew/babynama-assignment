@@ -136,7 +136,7 @@ export default function WebinarsPage() {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-3xl p-8 shadow-2xl">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Don't Miss Out!
+              Don&apos;t Miss Out!
             </h3>
             <p className="text-blue-100 mb-6 max-w-md mx-auto">
               Subscribe to get notified about upcoming webinars and exclusive parenting resources.
