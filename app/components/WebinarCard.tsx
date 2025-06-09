@@ -98,7 +98,7 @@ export default function WebinarCard({ webinar, handleViewDetails }: WebinarCardP
           onClick={() => handleViewDetails(webinar.id)}
         >
           <Play className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform" />
-          Join Webinar
+          View Details
           <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
         </button>
       </div>
