@@ -122,7 +122,7 @@ export default function WebinarsPage() {
 
         {/* Webinars Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {webinars.map((webinar: Webinar, index: number) => (
+          {webinars.map((webinar: Webinar) => (
             <div key={webinar.id}>
               <WebinarCard
                 webinar={webinar}
