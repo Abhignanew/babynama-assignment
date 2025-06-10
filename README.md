@@ -30,9 +30,11 @@ After you've finished coding, please complete the following two steps.
 1.  **Deploy Your Work:** Deploy your project to Vercel (it's free).
 2.  **Complete this README:** **This is the most important step.** Edit this `README.md` file in your repository to include:
     * **Live URL:** https://babynama-assignment-bay.vercel.app/
-    * **Choices Made:** [Briefly explain one technical choice you made]
-    * **Roadblock & Learning:** [Describe one small thing you had to look up and how you solved it]
+    * **Choices Made:** I chose to create a reusable WebinarCard component to represent each webinar in a clean, responsive grid layout. This allowed for separation of concerns, making the code more modular and easier to maintain or update later
+    * **Roadblock & Learning:** I initially struggled with limiting the webinar description to only two lines without breaking the layout. After looking it up, I learned about using -webkit-line-clamp and -webkit-box CSS styles to truncate multiline text, which I then applied inside the Tailwind style prop.
     * **Screenshot:**
-        ![Your Screenshot Here](https://via.placeholder.com/600x400.png?text=Paste+Screenshot+of+Your+App+Here)
+       
+      
+![Screenshot 2025-06-10 120011](https://github.com/user-attachments/assets/36591233-3388-4b20-ba2f-b605aeaaf758)
 
 To submit, please share the link to your finished GitHub repository with us. Good luck!
