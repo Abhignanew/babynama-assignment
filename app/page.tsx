@@ -1,6 +1,14 @@
+"use client"
+
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 export default function Home() {
+   const router = useRouter();
+
+  const handleClick = () => {
+    router.push("/webinars");
+  }
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-50">
       <div className="text-center">
@@ -20,6 +28,7 @@ export default function Home() {
         </p>
         <p className="mt-4 text-gray-500">Good luck!</p>
       </div>
+      <button onClick={handleClick} className="bg-sky-400 text-white px-6 py-3 rounded-full m-8 hover:bg-blue-700 transition">Go to Webinars</button>
     </main>
   );
 }
